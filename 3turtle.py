@@ -10,7 +10,7 @@ def square():
     tutu.width(2)
     tutu.turtlesize(5)
     tutu.color("green")
-    for j in range(50):
+    for j in range(36):
         for i in range(4):
             tutu.forward(100)
             tutu.right(90)
@@ -20,7 +20,7 @@ def square():
     mitthu.speed(30)
     mitthu.shape("turtle")
     mitthu.turtlesize(4)
-    for j in range(50):
+    for j in range(36):
         for i in range(4):
             mitthu.circle(100)
         mitthu.right(10)
