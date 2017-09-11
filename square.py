@@ -2,13 +2,14 @@ import turtle
 
 def square():
     window = turtle.Screen()
-    window.bgcolor("red")
+    window.bgcolor("#f9f59f")
 
     tutu = turtle.Turtle()
     tutu.speed(30)
     tutu.shape("turtle")
-    tutu.width(1)
-    tutu.color("white")
+    tutu.width(2)
+    tutu.turtlesize(5)
+    tutu.color("green")
     for j in range(100):
         for i in range(4):
             tutu.forward(100)
